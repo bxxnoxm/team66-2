@@ -8,12 +8,29 @@
 <body>
     <h1>Input From</h1>
     <form action="#">
-        <table>
-        <label for="username">username</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <label for="password">password</label>
-        <input type="password" name="password" id="password">
+    <table>
+    <tr>
+        <td><label for="username">Username</label></td>
+        <td><input type="email" name="email" id="email"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <tr>
+        <td><label for="City">City of Employment: </label></td>
+        <td><input type="text" name="city" id="city"></td>
+    </tr>
+    <tr>
+        <td><label for="web">Web server: </label></td>
+    <td>
+        <select name="web" id="web">
+            <option value="blank">--Choose a server---</option>
+            <option value="google">google</option>
+            <option value="facebook">facebook</option>
+            <option value="twitter">twitter</option>
+        </select>
+    </td>
 
     </table>
 </body>
